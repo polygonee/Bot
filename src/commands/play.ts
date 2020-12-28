@@ -16,7 +16,7 @@ export default class PlayCommand implements Command {
   execute = async(ctx: CommandContext, ...args: string[]) => {
     const query = args?.join(' ');
     if (!query)
-      throw new TypeError('Query must be provided.');
+      throw new TypeError('You need to play something.');
 
     const player = this.music.joinAndGetPlayer(ctx.member.voice.channel, ctx.channel);
 

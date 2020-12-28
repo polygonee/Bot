@@ -16,7 +16,7 @@ export default class WarnCommand implements Command {
     execute = async(ctx: CommandContext, targetMention: string, ...args: string[]) => {
         const reason = args?.join(' ');
         if (!reason)
-            throw new TypeError('Why warn someone for no reason :thinking: :joy:?');
+            throw new TypeError('Why warn someone for no reason? <:what:793183558898286623>');
 
         const target = (targetMention) ?
             getMemberFromMention(targetMention, ctx.guild) : ctx.member;

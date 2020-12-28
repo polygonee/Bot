@@ -7,5 +7,5 @@ export default class PingCommand implements Command {
     cooldown = 3;
     module = 'General';
     
-    execute = (ctx: CommandContext) => ctx.channel.send(`🏓 Pong! \`${ctx.bot.ws.ping}ms\``);
+    execute = (ctx: CommandContext) => ctx.channel.send(`🏓 Pong! API: \`${ctx.bot.ws.ping}ms\`.`);
 }

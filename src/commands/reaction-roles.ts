@@ -30,7 +30,7 @@ export default class ReactionRolesCommand implements Command {
             .get(user.id).roles
             .add(config.role);
       }
-      await ctx.channel.send(`> Added \`${count}\` reaction roles.`);
+      await ctx.channel.send(`> Added \`${count}\` reaction roles. To get roles, react with the correct reaction.`);
     }
   }
     

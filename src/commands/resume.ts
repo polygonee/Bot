@@ -14,7 +14,7 @@ export default class ResumeCommand implements Command {
     const player = this.music.joinAndGetPlayer(ctx.member.voice.channel, ctx.channel);
 
     if (!player.isPaused)
-      throw new TypeError('Player is already resumed.');
+      throw new TypeError('How do you expect me to resume something that\'s already playing?');
 
     await player.resume();
       
