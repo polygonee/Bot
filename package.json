@@ -22,7 +22,7 @@
     "@2pg/oauth": "^1.0.7",
     "@dbots/stats": "^1.0.1",
     "@types/cors": "^2.8.6",
-    "@types/express": "^4.17.7",
+    "@types/express": "^4.17.13",
     "@types/express-rate-limit": "^5.0.0",
     "@types/mongoose": "^5.7.3",
     "@types/node-fetch": "^2.5.7",
