@@ -45,7 +45,7 @@
     "ytdl-core": "^4.2.1"
   },
   "devDependencies": {
-    "@types/chai": "^4.2.10",
+    "@types/chai": "^4.2.21",
     "@types/chai-as-promised": "^7.1.2",
     "@types/mocha": "^7.0.2",
     "@types/supertest": "^2.0.8",
